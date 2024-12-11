@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'dansing-script';
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf) format("truetype");
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'Bellota';
+    src: url(../fonts/Bellota-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    height: 100vh;
+    margin: 0;
+    background: #221518 95%;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-bar-castom{
+    height: 20%;
+    display: flex;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 1;
+    transition: top 0.3s ease;
+    color: #F7E1BC;
+
+}
+.glow {
+    position: relative; 
+    height: 300px; 
+    width: 300px; 
+    background: url(../images/Glow2.png) no-repeat center center; 
+    background-size: cover; 
+    z-index: 1; 
+    position: fixed;
+    display: fixed;
+    margin-top: 0px; 
+    margin-left: 0px;
+}
+.img-logo {
+    position: relative; 
+    height: 60px;
+    width: 60px;
+    z-index: 1;
+    background: transparent;
+    background-size: cover;
+    display: block;
+  
+}
+.button-conteiner{
+height: auto;
+width: 100%;
+margin-top: 25px;
+justify-content: flex-end;
+display: flex;
+}
+.btn-link {
+    background: transparent;
+    border: transparent;
+    text-align: center;
+    color: #F7E1BC;
+    font-family: 'Bellota';
+    font-size: 25px;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.2s ease; 
+    overflow: hidden;
+    cursor: pointer; 
+}
+
+.btn-link:hover {
+    color: #F7E1BC;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-link:active {
+    color: #F7E1BC;
+    transform: scale(0.95);  
+    transition: transform 0.1s ease-in;  
+}
