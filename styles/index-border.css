@@ -24,8 +24,9 @@
     height: 150px;
     z-index: 1; 
     display: flex;
-    align-items: center;
-    justify-content: center; 
+    align-items: left;
+    justify-content: left; 
+    z-index: 1;
 }
 .left-column {
     text-align: left;
@@ -52,12 +53,11 @@
 .buttons {
     margin-top: 10px; 
 }
-.button-container-b::after {
+.button-container-b{
     content: "";
     position: absolute; 
-    bottom: 5px; 
-    left: 10px; 
-    display: flex; 
+    bottom: 295px; 
+    left: 170px; 
     align-items: left; 
     z-index: 1;
 }
